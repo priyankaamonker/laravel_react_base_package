@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Transparent background - no fill rect -->
+
+  <!-- Dark navy rounded square background (kept as part of design, but SVG overall is transparent) -->
+  <rect x="10" y="10" width="280" height="280" rx="52" ry="52" fill="#1a2744"/>
+
+  <!-- White "F" letter -->
+  <!-- Vertical stem -->
+  <rect x="88" y="65" width="33" height="135" rx="4" fill="white"/>
+  <!-- Top horizontal bar -->
+  <rect x="88" y="65" width="108" height="33" rx="4" fill="white"/>
+  <!-- Middle horizontal bar -->
+  <rect x="88" y="128" width="85" height="29" rx="4" fill="white"/>
+
+  <!-- Green checkmark overlapping bottom-right of F -->
+  <polyline
+    points="146,182 167,204 212,148"
+    fill="none"
+    stroke="#3cb54a"
+    stroke-width="23"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- "FitApply" text at bottom -->
+  <text x="150" y="268" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="36" font-weight="900" text-anchor="middle">
+    <tspan fill="white">Fit</tspan><tspan fill="#3cb54a">Apply</tspan>
+  </text>
+</svg>
